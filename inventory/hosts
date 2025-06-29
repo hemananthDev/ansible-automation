@@ -1,6 +1,6 @@
-[docker]
+[dockerservers]
 172.31.42.91 ansible_user=ubuntu
 
-[nginx]
+[nginxservers]
 172.31.42.231 ansible_user=ubuntu
 
