@@ -1,0 +1,6 @@
+- name: Install and configure Docker using role
+  hosts: dockerservers
+  become: true
+  roles:
+    - role: ../roles/docker
+

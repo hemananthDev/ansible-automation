@@ -1,0 +1,5 @@
+[dockerservers]
+172.31.42.91 ansible_user=ubuntu ansible_ssh_private_key_file=~/text-align-key.pem
+
+[webservers]
+172.31.42.231 ansible_user=ubuntu ansible_ssh_private_key_file=~/text-align-key.pem
